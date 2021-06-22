@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Slider layoutX="61.0" layoutY="524.0" prefHeight="14.0" prefWidth="886.0" value="50.0" />
+      <Slider layoutX="966.0" layoutY="49.0" orientation="VERTICAL" prefHeight="459.0" prefWidth="14.0" value="50.0" />
+      <ImageView fx:id="previewImage" fitHeight="451.0" fitWidth="877.0" layoutX="17.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="735.0" layoutY="593.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="259.0" text="Generate">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="39.0" layoutY="593.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="112.0" text="Choose..." />
+      <Label layoutX="39.0" layoutY="565.0" text="Choose file image" />
+      <Label layoutX="181.0" layoutY="565.0" text="Add variable" />
+      <Button layoutX="379.0" layoutY="593.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="112.0" text="Add" />
+      <TextField layoutX="181.0" layoutY="593.0" prefHeight="36.0" prefWidth="187.0" />
+   </children>
+</AnchorPane>
